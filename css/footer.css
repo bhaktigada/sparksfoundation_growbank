@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;600&display=swap');
+body{
+  font-family: 'Yaldevi', sans-serif;
+}
+
+span{
+  color: #ffffff;
+  font-weight:900;
+}
+
+footer{
+  background: #0e5689;
+  padding: 90px 0;
+}
+
+.footer-container{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.logo{
+  text-decoration: none;
+  color: #fff;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.social-media{
+  margin: 20px 0;
+}
+
+.social-media a{
+  color: #f5f5f5;
+  margin-right: 25px;
+  font-size: 22px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+
+.social-media a:hover{
+  color: #0d0202;
+}
+
+.right-col h1{
+  font-size: 26px;
+  color: #f5f5f5;
+}
+
+.rights-text{
+  color: #f5f5f5;
+}
+
+.right{
+  padding-top: 10px;
+  color: #f5f5f5;
+}
+
+.border{
+  width: 100px;
+  height: 4px;
+  background: #e4dfdf;
+}
+
+.newsletter-form{
+  padding-top: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.txtb{
+  flex: 1;
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #293043;
+  background: rgb(253, 253, 253);
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  min-width: 260px;
+}
+
+.btn{
+  padding: 18px 40px;
+  font-size: 16px;
+  color: #1a0808;
+  background: #fafafa;
+  border: none;
+  font-weight: 700;
+  outline: none;
+  border-radius: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+  transition: opacity .3s linear;
+}
+
+.btn:hover{
+  opacity: .7;
+  background: rgb(23, 20, 20);
+  color: rgb(235, 231, 231);
+}
