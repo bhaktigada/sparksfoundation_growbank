@@ -47,11 +47,7 @@
                 }
                 ?>
                 </table>
-                <center>
-                <div class="btns">
-                    <a href="index.html"><button>Back to Home Page</button></a>
-                </div>
-                </center>
+                
             </main>
             <div style="padding-top: 170px; background-color: rgb(201, 226, 235);">
             <include src="./footer.html"></include>
